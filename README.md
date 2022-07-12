@@ -38,6 +38,26 @@ This repo builds on our survey and systematically organizes the existing VLPMs i
 Vision-and-Language Pretrained Models: A Survey
 </h1>
 
+<h2 id="VLSStruc">
+Generalized VLPM structure
+</h2>
+
+<h2 id="VLSIE">
+Input Encoding
+</h2>
+
+<h2 id="VLSPTD">
+Pretraining tasks and dataset
+</h2>
+
+<h2 id="VLSDTD">
+Downstream tasks and dataset
+</h2>
+
+<h2 id="VLSFRD">
+Future Research Direction
+</h2>
+
 <h1 id="Comprehensive">
 Comprehensive Overview
 </h1>
