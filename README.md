@@ -20,7 +20,7 @@ This repo builds on our survey and systematically organizes the existing VLPMs i
 
 
 # Structure of this repo
-- [Vision-and-Language Pretrained Models: A Survey](# Vision-and-Language Pretrained Models: A Survey)
+- [Vision-and-Language Pretrained Models: A Survey](#VLSurvey)
   - xxx
   - xxx
 - [Comprehensive Paper Overview]
@@ -28,4 +28,8 @@ This repo builds on our survey and systematically organizes the existing VLPMs i
   - 
 - 
 
+
+<h1 id="VLSurvey">
+Vision-and-Language Pretrained Models: A Survey
+</h1>
 # Vision-and-Language Pretrained Models: A Survey
