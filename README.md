@@ -21,15 +21,32 @@ This repo builds on our survey and systematically organizes the existing VLPMs i
 
 # Structure of this repo
 - [Vision-and-Language Pretrained Models: A Survey](#VLSurvey)
-  - xxx
-  - xxx
-- [Comprehensive Paper Overview]
-  - Paper with code (if available) ordered by year
   - 
+  - xxx
+- [Comprehensive Overview]
+  - Paper with code (only listed if available) ordered by year
+  - Paper with methodlogies - Table 1 in the journal version
+  - Paper with tasks and datasets - Table 2 in the journal version (add downstream tasks?)
 - 
 
 
 <h1 id="VLSurvey">
 Vision-and-Language Pretrained Models: A Survey
 </h1>
-# Vision-and-Language Pretrained Models: A Survey
+
+<h1 id="Comprehensive">
+Comprehensive Paper Overview
+</h1>
+
+<h2 id="CompCode">
+Code availability overview
+</h2>
+
+<h2 id="CompMethod">
+Methodology summary overview
+</h2>
+
+<h2 id="CompTaskData">
+Tasks and dataset summary overview
+</h2>
+
