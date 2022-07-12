@@ -20,7 +20,7 @@ This repo builds on our survey and systematically organizes the existing VLPMs i
 
 
 # Structure of this repo
-- [Vision-and-Language Pretrained Models: A Survey](https://github.com/usydnlp/Fantastic_VLPMs/blob/main/README.md#vision-and-language-pretrained-models-a-survey)
+- [Vision-and-Language Pretrained Models: A Survey](# Vision-and-Language Pretrained Models: A Survey)
   - xxx
   - xxx
 - [Comprehensive Paper Overview]
