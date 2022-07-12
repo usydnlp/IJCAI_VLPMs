@@ -13,6 +13,19 @@ If you find this repository helpful for your research or work, please kindly cit
 }
 ```
 
+# Introduction
+So far, pretraining models have produced great success in both Computer Vision and Natural Language Processing. While CV researchers use VGG and ResNet predict the categorical label of a given image, BERT has been used and revolutionised many NLP tasks, such as natural language inference, and reading comprehension. Motivated by this, many cross-modal Vision-Language pretraining models, i.e., VLPMs, have been designed and trained by feeding visual and linguistic contents into the multi-layer transformer.
 
-# Structure of the repo
+This repo builds on our survey and systematically organizes the existing VLPMs in terms of related papers (with their codes if available), and the commonly used pretraining and downstream task datasets, aiming to provide a general guideline and reference for future research development in VLPMs. 
 
+
+# Structure of this repo
+- [Vision-and-Language Pretrained Models: A Survey]
+  - xxx
+  - xxx
+- [Comprehensive Paper Overview]
+  - Paper with code (if available) ordered by year
+  - 
+- 
+
+# Vision-and-Language Pretrained Models: A Survey
