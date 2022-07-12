@@ -27,7 +27,7 @@ This repo builds on our survey and systematically organizes the existing VLPMs i
   - Pretraining tasks and dataset
   - Downstream tasks and dataset
   - Future Research Direction
-- [Comprehensive Overview]
+- [Comprehensive Overview](#Comprehensive)
   - Paper with code (only listed if available) ordered by year
   - Paper with methodlogies - Table 1 in the journal version
   - Paper with tasks and datasets - Table 2 in the journal version (add downstream tasks?)
