@@ -59,15 +59,14 @@ To present the review in a structured way, we generalized the VLPM into four maj
 We systematically review the VLPM architectures in terms of those four components, with main focus on multi-modal handling perspective. Based on this, we then summarise the pretraining strategies and downstream evaluation tasks accordingly.
 
 <h2 id="VLSIE">
-Input Encoding - Raw V/L Input and V/L Representation
+Input Encoding - Raw V/L Input 
 </h2>
 
 
-<h3> Raw V/L Input </h3>
 
 
 
-<h3> V/L Representation </h3>
+<h2> Input Encoding - V/L Representation </h2>
 
 In the following table, we summaries the granularities of **V representation (visual representation)** applied by existing VLPMs, i.e. how image pixels are split into groups as visual tokens. It is an important decision of design since it decides the alignment level of cross-modal modeling in the image content, i.e. the source of cross-modal interaction 
 
@@ -182,6 +181,10 @@ The table below provides the brief summarization of the three types of V-LIMs.
     </tbody>
 </table>
 
+
+<h2 id="VLSVLIM">
+V and L Representation
+</h2>
 
 
 <h2 id="VLSPTD">
