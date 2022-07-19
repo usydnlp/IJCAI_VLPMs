@@ -82,3 +82,5 @@ Methodology summary overview
 Tasks and dataset summary overview
 </h2>
 
+
+![image](https://github.com/usydnlp/Fantastic_VLPMs/blob/main/img/vlpm_ontology.png)
