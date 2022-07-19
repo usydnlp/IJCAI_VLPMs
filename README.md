@@ -216,12 +216,40 @@ The design of the Vision or Language and Vision-language representation depend o
 </table>
 
 <h2 id="VLSPTD">
-Pretraining tasks and dataset
+Pretraining datasets and tasks 
 </h2>
+
+<h3>Pretraining datasets </h3>
+There are several categories of pretraining dataset(s) used by the existing VLPMs.
+
+**1) Large-scale webly collected dataset(s)**, featured with enormous size and diversity
+- Conceptual Captions (CC, roughly 3M) and SBU Captions (SBU, around 1M) are the most commonly used Webly collected datasets for VLPM pretraining
+- Some simple Dual-encoder collect even larger scale corpus from the web, such as WIT (400M) and ALIGN (1.8B)   
+- It is found that a larger sized corpus leads to better performance in downstream transfer tasks
+
+**2) Out-of-domain and In-domain combination**
+- Commonly used combinations: CC/SBU as out-of-domain + MSCOCO (COCO)/Visual Genome (VG) as in-domain, since most downstream tasks are built on COCO/VG
+- The in-domain dataset can also be task-specific datasets that specifically come from the commonly evaluated downstream tasks
+- Inclusion of in-domain dataset for pretraining leads to better domain adaptation
+
+
+**3) Domain/task-specific dataset only**, with solo focus on specialized tasks/domains
+- Some VLPMs focus on Visual Dialogue (VD) pretrain on only the VD dataset due to the reduced suitability to the above text-image datasets regarding domain nature or data format
+
+**4) Additional single-modality dataset** - joint pretraining with single-modal tasks on auxiliary single-modality dataset, driven by single-modality downstream goal
+- Single-modality dataset, i.e. non-paired collection of image or text are used for reinforcing single-modal representations
+
+<h3>Pretraining tasks </h3>
+
 
 <h2 id="VLSDTD">
 Downstream tasks and dataset
 </h2>
+
+We also provide the summary of the eight commonly used Vision-language understanding tasks and two generation tasks as downstream goals. An overview of the VLPMs that work on the Vision-Language understanding is listed in the table below (Table 1 in the survey paper), which can serve as a quick access entry to the VLPM with the specific targeted goal. 
+
+<p align="center"><img src="https://github.com/usydnlp/Fantastic_VLPMs/blob/main/img/downstreamtable.png" alt="Downstream understanding tasks" width="900"/></p>
+
 
 <h2 id="VLSFRD">
 Future Research Direction
