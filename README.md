@@ -23,11 +23,18 @@ So far, pretraining models have produced great success in both Computer Vision a
 This repo builds on our survey and systematically organizes the existing VLPMs in terms of related papers (with their codes if available), and the commonly used pretraining and downstream task datasets, aiming to provide a general guideline and reference for future research development in VLPMs. 
 
 # Generalized VLPMs architecture
-To present the review in a structured way, we generalized the VLPM into four major components: 
-- *V or L Raw Input Data*: defines the representative raw data streams from the single modality contents, being either vision or language.
-- *V or L  Representation*: processes the raw data input into the desired format of modality representations.
-- *V and L Interaction Model*: enforces the cross-modal modelling between the two modality representations.
-- *V and L Representation*: defines the possible cross-modal representations derived from the cross-modal modelling. 
+To present the review in a structured way, we generalized the VLPM into four major components, as is illustrated in the figure below (Figure 1 in our survey paper): 
+
+![image](https://github.com/usydnlp/Fantastic_VLPMs/blob/main/img/general_arc.png)
+
+ __*1) V or L Raw Input Data*__: defines the representative raw data streams from the single modality contents, being either vision or language.
+ 
+ __*2) V or L  Representation*__: processes the raw data input into the desired format of modality representations.
+ 
+ __*3) V and L Interaction Model*__: enforces the cross-modal modelling between the two modality representations.
+ 
+ __*4) V and L Representation*__: defines the possible cross-modal representations derived from the cross-modal modelling. 
+ 
 
 We systematically review the VLPM architectures in terms of those four components, with main focus on multi-modal handling perspective. Based on this, we then summarise the pretraining strategies and downstream evaluation tasks accordingly.
 
