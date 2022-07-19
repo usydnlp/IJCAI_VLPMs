@@ -62,6 +62,53 @@ We systematically review the VLPM architectures in terms of those four component
 Input Encoding - Raw V/L Input and V/L Representation
 </h2>
 
+**Visual Encoding**
+
+<table>
+    <thead>
+        <tr>
+            <th style="width: 10%">Granularity</th>
+            <th style="width: 10%">Definition</th>
+            <th style="width: 25%">Intution</th>
+            <th style="width: 20%">Visual Embedding</th>
+            <th style="width: 20%">Spatial Position Embedding</th>
+            <th>Example VLPMs</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>ROI-based</td>
+            <td>Object regions as visual tokens</td>
+            <td>Assume most image-text pairwise data is supposed to have its text describe the salient object regions in the corresponding image </td>
+            <td>Visual feature extracted by pre-trained Faster R-CNN object detector</td>
+            <td>Coordinates of object regions, e.g. 5d vector (normalized ROI bbox and the fraction of image area)
+</td>
+            <td>Vilbert (Lu et al., 2019) </td>
+        </tr>
+        <tr>
+            <td>Patch-based</td>
+            <td>Grid-patches as visual tokens</td>
+            <td rowspan=2><li>Seek for more fine-grained cross-modal alignment</li><li>No dependency on object detector (as in ROI-based VLPMs)</li><li>Efficient for end-to-end visual representation learning</li></td>
+            <td rowspan=2><li>Mostly, visual feature extracted by CNN-based extractor</li><li>More recently, shallow and convolution-free embedding that utilizes simple linear projection for encoding</li></td>
+            <td rowspan=2>Pixel location, e.g. 2d-aware vector for row/column number</td>
+            <td>Fashionbert (Gao et al., 2020)</td>
+        </tr>
+        <tr>
+            <td>Pixel-based</td>
+            <td>Rows of pixels as visual tokens</td>
+            <td>Pixel-BERT (Huang et al., 2020) </td>
+        </tr>
+        <tr>
+            <td>Image-based</td>
+            <td>Complete images as visual tokens</td>
+            <td><li>Driven by multi-image based tasks such as Vision-Language Navigation (VLN)</li><li>Focus more on inter-image correlation, angle change in the images of the same scene</li></td>
+            <td>Pooled visual feature from CNN model, e.g. EfficientNet</td>
+            <td>Coordinates of object regions, e.g. 5d vector (normalized ROI bbox and the fraction of image area)
+</td>
+            <td>PREVALENT (Hao et al., 2020) </td>
+        </tr>
+    </tbody>
+</table>
 
 
 <h2 id="VLSVLIM">
