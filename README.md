@@ -241,6 +241,38 @@ There are several categories of pretraining dataset(s) used by the existing VLPM
 
 <h3>Pretraining tasks </h3>
 
+The table below provides the brief view of the main categories of V-L pretraining tasks applied in existing VLPMs. The detailed summarization of those pretraining tasks and also some other specific downstream-driven tasks can be found in the survey paper.
+
+<table>
+    <thead>
+        <tr>
+            <th style="width: 20%">Category</th>
+            <th style="width: 30%">Representative Task</th>
+            <th style="width: 25%">Example VLPMs</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=3>Most commonly used cross-modal pretraining tasks</td>
+            <td>Cross-modal Masked Language Modeling (CMLM)</td>
+            <td>Vl-bert (Su et al., 2019) <br> Pixel-bert (Huang et al., 2020)</td>            
+        </tr>
+        <tr>            
+            <td>Cross-modal Masked Region Modeling (CMRM), with 3 objective variants</td>
+            <td>Uniter (Chen et al., 2020) <br> Lxmert (Tan and Bansal,2019)</td>
+        </tr>
+        <tr>
+            <td>Cross-modal Alignment</td>
+            <td>Lightningdot (Sun et al., 2021) <br> Cookie (Wen et al., 2021)</td>
+        </tr>
+        <tr>
+            <td>Generation goal-oriented pretraining tasks</td>
+            <td>Seq2seq CMLM</td>
+            <td>Unimo (Li et al., 2021) <br> Vd-bert (Wang et al., 2020)</td>
+        </tr>
+    </tbody>
+</table>
+
 
 <h2 id="VLSDTD">
 Downstream tasks and dataset
