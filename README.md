@@ -62,9 +62,14 @@ We systematically review the VLPM architectures in terms of those four component
 Input Encoding - Raw V/L Input and V/L Representation
 </h2>
 
-**Visual Encoding - Visual Representation**
 
-In the following table, we summaries the granularities of visual representation applied by existing VLPMs, i.e. how image pixels are split into groups as visual tokens. It is an important decision of design since it decides the alignment level of cross-modal modeling in the image content, i.e. the source of cross-modal interaction 
+<h3> Raw V/L Input </h3>
+
+
+
+<h3> V/L Representation </h3>
+
+In the following table, we summaries the granularities of **V representation (visual representation)** applied by existing VLPMs, i.e. how image pixels are split into groups as visual tokens. It is an important decision of design since it decides the alignment level of cross-modal modeling in the image content, i.e. the source of cross-modal interaction 
 
 
 
@@ -113,6 +118,11 @@ In the following table, we summaries the granularities of visual representation 
         </tr>
     </tbody>
 </table>
+
+
+<h3>Intra-modality Processing</h3>
+
+Before feeding the Bert-formatted language/visual representation into the cross-modal interaction model, some VLPMs further conduct additional **intra-modality processing** to the language or visual representation (or both). Most VLPMs adopt additional self-attention based transformer blocks as intra-modality processing. Several VLPMs also apply non-transformer processing such as using AoANet and the Visual Dictionary-based mapping. Transformer blocks provides flexibility of selecting a different number of blocks for the two modalities. In practice, the language modality normally applies more blocks than the vision modality for a better balance. 
 
 
 <h2 id="VLSVLIM">
