@@ -287,6 +287,16 @@ We also provide the summary of the eight commonly used Vision-language understan
 Future Research Direction
 </h2>
 
+In order to advance this field, we propose several promising future directions for the VLPM:
+
+- **VL Interaction Modeling**: Investigating how to explicitly align the embedding features between image and text so that it can learn fine-grained representations
+
+- **VLPM Pretraining Strategy**: Exploring how the VL multi-tasking can be applied for VLPM pretraining that can generate the best transfer performance on the specific targeted domain, or even more generalizable transfer performance across different domains.
+
+- **Training Evaluation**: The trained VLPMs is only evaluated during the downstream tasks so far. It worth to explore some metrics during the training precedure. 
+
+
+
 <h1 id="Comprehensive">
 Comprehensive Overview
 </h1>
