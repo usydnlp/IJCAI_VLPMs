@@ -31,9 +31,7 @@ This repo builds on our survey and systematically organizes the existing VLPMs i
   - [Downstream tasks and dataset](#VLSDTD)
   - [Future Research Direction](#VLSFRD)
 - [Comprehensive Overview](#Comprehensive)
-  - Paper with code (only listed if available) ordered by year
-  - Paper with methodlogies - Table 1 in the journal version
-  - Paper with tasks and datasets - Table 2 in the journal version (add downstream tasks?)
+
 
 <h1 id="VLSurvey">
 Vision-and-Language Pretrained Models: A Survey
@@ -301,17 +299,6 @@ In order to advance this field, we propose several promising future directions f
 Comprehensive Overview
 </h1>
 
-<h2 id="CompCode">
-Code availability overview
-</h2>
-
-<h2 id="CompMethod">
-Methodology summary overview
-</h2>
-
-<h2 id="CompTaskData">
-Tasks and dataset summary overview
-</h2>
 
 
 ![image](https://github.com/usydnlp/Fantastic_VLPMs/blob/main/img/vlpm_ontology.png)
