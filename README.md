@@ -174,11 +174,11 @@ The table below provides the brief summarization of the three types of V-LIMs.
             <td>Ernie-vil (Yu et al., 2021) [double-stream] <br> Lxmert (Tan and Bansal, 2019) [double-stream]</td>
         </tr>
         <tr>
-            <td>Pixel-based</td>
+            <td>VSE-based</td>
             <td><li>Eradicate the fusion-style attention-based V-LIM, which provides efficiency</li><li>Enable independent V/L representation encoding of both modalities, making pre-computation possible for more efficient retrieval</li></td>
             <td>ALIGN (Jia et al., 2021) <br> LightningDOT (Sun et al., 2021)</td>
         </tr>
-    </tbody>
+    </tbody> 
 </table>
 
 
@@ -186,6 +186,34 @@ The table below provides the brief summarization of the three types of V-LIMs.
 V and L Representation
 </h2>
 
+The design of the Vision or Language and Vision-language representation depend on the model structure whereas their usage depends on the goal of pretraining and downstream tasks.
+
+<table>
+    <thead>
+        <tr>
+            <th style="width: 10%">V-LIM</th>
+            <th style="width: 30%">V/L Representation</th>
+            <th style="width: 25%">V-L Representation</th>   
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Self-attention-based</td>
+            <td>Output representation of the language or vision sequence from the joint cross-modal encoder</td>
+            <td>Output representation of the global-level special token, such as [CLS]</td>
+        </tr>
+        <tr>
+            <td>Co-attention-based</td>
+            <td>Output representation of the two separate modality streams</td>
+            <td>Output representation of the global-level special token of either modality stream or their aggregation</td>
+        </tr>
+        <tr>
+            <td>VSE-based</td>
+            <td>Independent V/L representation from the separate language and visual encoder</td>
+            <td>Fused representation of V/L representation</td>
+        </tr>
+    </tbody>
+</table>
 
 <h2 id="VLSPTD">
 Pretraining tasks and dataset
