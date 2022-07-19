@@ -26,7 +26,7 @@ This repo builds on our survey and systematically organizes the existing VLPMs i
 - [Vision-and-Language Pretrained Models: A Survey](#VLSurvey)
   - [Generalized VLPM architecture](#VLSStruc)
   - [Input Encoding - Raw V/L Input and V/L Representation](#VLSIE)
-  - [V-LIM](#VLSVLIM)
+  - [V and L Interaction Model (V-LIM)](#VLSVLIM)
   - [Pretraining tasks and dataset](#VLSPTD)
   - [Downstream tasks and dataset](#VLSDTD)
   - [Future Research Direction](#VLSFRD)
@@ -124,10 +124,65 @@ In the following table, we summaries the granularities of **V representation (vi
 
 Before feeding the Bert-formatted language/visual representation into the cross-modal interaction model, some VLPMs further conduct additional **intra-modality processing** to the language or visual representation (or both). Most VLPMs adopt additional self-attention based transformer blocks as intra-modality processing. Several VLPMs also apply non-transformer processing such as using AoANet and the Visual Dictionary-based mapping. Transformer blocks provides flexibility of selecting a different number of blocks for the two modalities. In practice, the language modality normally applies more blocks than the vision modality for a better balance. 
 
+<p align="center"><img src="https://github.com/usydnlp/Fantastic_VLPMs/blob/main/img/intra-modealprocessing.png" alt="Intra-modal Porcessing" width="900"/></p>
+
+
 
 <h2 id="VLSVLIM">
-V-LIM
+V and L Interaction Model (V-LIM)
 </h2>
+
+So far, there are two types of mainstream VLPM model structures in the existing literature:
+
+<p align="center"><img src="https://github.com/usydnlp/Fantastic_VLPMs/blob/main/img/ExistingVLPMmainstreams.png" alt="Intra-modal Porcessing" width="900"/></p>
+
+- *Single-stream (1-stream)*: directly fuse the Bert-formatted language/visual representation by using the joint cross-modal encoder at the initial stage
+- *Double-stream (2-stream)*: separately apply the intra-modality processing to two modalities along with a shared cross-modal encoder
+
+However, this way of classification is mainly based on the perspective of data stream and intra-modality data handling before the cross-modal modelling. 
+
+**In this survey, we propose three main categories with focus on the Vision-Language Interaction Modelling (V-LIM), hoping to enlighten a new perspective on cross-modal alignment learning strategy.**
+
+<p align="center"><img src="https://github.com/usydnlp/Fantastic_VLPMs/blob/main/img/VLIMs.png" alt="3 types of V-LIMs" width="900"/></p>
+
+**1) Self-attention-based V-LIM**: directly apply single-stream self-attention module to the modality representations for cross-modal modeling, e.g. most single-stream VLPMs and some of the double-stream VLPMs 
+
+**2) Co-attention-based V-LIM**: decouple the intra- and cross- modal modeling processes, which keep two separate streams of transformer blocks for each modality that are entangled only at the specific cross-attention sub-layer, e.g. double-stream VLPMs
+
+**3) VSE-based V-LIM**: simply utilize the dual-encoder structured model with Visual-Semantic-Embedding(VSE)-based cross-modal contrastive learning. It is mostly applied for retrieval task-focused VLPMs
+
+We categorize those encoder-decoder VLPMs as either 1) or 2) or combination of both depending on the type of attention mechanism is applied between the two modalities.
+
+The table below provides the brief summarization of the three types of V-LIMs.
+
+<table>
+    <thead>
+        <tr>
+            <th style="width: 10%">V-LIM</th>
+            <th style="width: 30%">Cross-modal Modeling Strategy</th>
+            <th style="width: 25%">Example VLPMs</th>     
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Self-attention-based</td>
+            <td>Enforce simultaneous intra- and cross-modal modeling via self-attention</td>
+            <td>Visualbert (Li et al., 2019) [single-stream] <br> Pixel-bert (Huang et al., 2021) [double-stream]</td>
+        </tr>
+        <tr>
+            <td>Co-attention-based</td>
+            <td><li>Decouple intra- and cross-modal interaction while having focus on both</li><li>Allow flexible design of modeling depth on separate intra- and cross-modal modeling</li></td>
+            <td>Ernie-vil (Yu et al., 2021) [double-stream] <br> Lxmert (Tan and Bansal, 2019) [double-stream]</td>
+        </tr>
+        <tr>
+            <td>Pixel-based</td>
+            <td><li>Eradicate the fusion-style attention-based V-LIM, which provides efficiency</li><li>Enable independent V/L representation encoding of both modalities, making pre-computation possible for more efficient retrieval</li></td>
+            <td>ALIGN (Jia et al., 2021) <br> LightningDOT (Sun et al., 2021)</td>
+        </tr>
+    </tbody>
+</table>
+
+
 
 <h2 id="VLSPTD">
 Pretraining tasks and dataset
