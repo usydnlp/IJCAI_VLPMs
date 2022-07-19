@@ -22,10 +22,30 @@ So far, pretraining models have produced great success in both Computer Vision a
 
 This repo builds on our survey and systematically organizes the existing VLPMs in terms of related papers (with their codes if available), and the commonly used pretraining and downstream task datasets, aiming to provide a general guideline and reference for future research development in VLPMs. 
 
-# Generalized VLPMs architecture
+# Structure of this repo
+- [Vision-and-Language Pretrained Models: A Survey](#VLSurvey)
+  - [Generalized VLPM architecture](#VLSStruc)
+  - [Input Encoding - Raw V/L Input and V/L Representation](#VLSIE)
+  - [V-LIM](#VLSVLIM)
+  - [Pretraining tasks and dataset](#VLSPTD)
+  - [Downstream tasks and dataset](#VLSDTD)
+  - [Future Research Direction](#VLSFRD)
+- [Comprehensive Overview](#Comprehensive)
+  - Paper with code (only listed if available) ordered by year
+  - Paper with methodlogies - Table 1 in the journal version
+  - Paper with tasks and datasets - Table 2 in the journal version (add downstream tasks?)
+
+<h1 id="VLSurvey">
+Vision-and-Language Pretrained Models: A Survey
+</h1>
+
+<h2 id="VLSStruc">
+Generalized VLPM architecture
+</h2>
+
 To present the review in a structured way, we generalized the VLPM into four major components, as is illustrated in the figure below (Figure 1 in our survey paper): 
 
-![image](https://github.com/usydnlp/Fantastic_VLPMs/blob/main/img/general_arc.png)
+<p align="center"><img src="https://github.com/usydnlp/Fantastic_VLPMs/blob/main/img/general_arc.png" alt="Generalized Architecture" width="600"/></p>
 
  __*1) V or L Raw Input Data*__: defines the representative raw data streams from the single modality contents, being either vision or language.
  
@@ -38,33 +58,11 @@ To present the review in a structured way, we generalized the VLPM into four maj
 
 We systematically review the VLPM architectures in terms of those four components, with main focus on multi-modal handling perspective. Based on this, we then summarise the pretraining strategies and downstream evaluation tasks accordingly.
 
-
-# Structure of this repo
-- [Vision-and-Language Pretrained Models: A Survey](#VLSurvey)
-  - [Generalized VLPM structure](#VLSStruc)
-  - [Input Encoding](#VLSIE)
-  - [V-LIM](#VLSVLIM)
-  - [Pretraining tasks and dataset](#VLSPTD)
-  - [Downstream tasks and dataset](#VLSDTD)
-  - [Future Research Direction](#VLSFRD)
-- [Comprehensive Overview](#Comprehensive)
-  - Paper with code (only listed if available) ordered by year
-  - Paper with methodlogies - Table 1 in the journal version
-  - Paper with tasks and datasets - Table 2 in the journal version (add downstream tasks?)
-
-
-
-<h1 id="VLSurvey">
-Vision-and-Language Pretrained Models: A Survey
-</h1>
-
-<h2 id="VLSStruc">
-Generalized VLPM structure
-</h2>
-
 <h2 id="VLSIE">
-Input Encoding
+Input Encoding - Raw V/L Input and V/L Representation
 </h2>
+
+
 
 <h2 id="VLSVLIM">
 V-LIM
