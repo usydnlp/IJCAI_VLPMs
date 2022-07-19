@@ -62,7 +62,7 @@ We systematically review the VLPM architectures in terms of those four component
 Input Encoding - Raw V/L Input and V/L Representation
 </h2>
 
-**Visual Encoding**
+**Visual Encoding - Visual Representation**
 
 In the following table, we summaries the granularities of visual representation applied by existing VLPMs, i.e. how image pixels are split into groups as visual tokens. It is an important decision of design since it decides the alignment level of cross-modal modeling in the image content, i.e. the source of cross-modal interaction 
 
