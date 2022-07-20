@@ -17,12 +17,10 @@ If you find this repository helpful for your research or work, please kindly cit
 }
 ```
 
-# Introduction
-So far, pretraining models have produced great success in both Computer Vision and Natural Language Processing. While CV researchers use VGG and ResNet to predict the categorical label of a given image, BERT has been used and revolutionised many NLP tasks, such as natural language inference, and reading comprehension. Motivated by this, many cross-modal Vision-Language pretraining models, i.e., VLPMs, have been designed and trained by feeding visual and linguistic contents into the multi-layer transformer.
-
 
 # Structure of this repo
 - [Vision-and-Language Pretrained Models: A Survey](#VLSurvey)
+  - [Introduction](#intro)
   - [Generalized VLPM architecture](#VLSStruc)
   - [Input Encoding - Raw V/L Input and V/L Representation](#VLSIE)
   - [V and L Interaction Model (V-LIM)](#VLSVLIM)
@@ -32,9 +30,18 @@ So far, pretraining models have produced great success in both Computer Vision a
 - [Comprehensive Overview](#Comprehensive)
 
 
+
+
+
 <h1 id="VLSurvey">
 Vision-and-Language Pretrained Models: A Survey
 </h1>
+
+<h2 id="intro">
+Introduction
+</h2>
+So far, pretraining models have produced great success in both Computer Vision and Natural Language Processing. While CV researchers use VGG and ResNet to predict the categorical label of a given image, BERT has been used and revolutionised many NLP tasks, such as natural language inference, and reading comprehension. Motivated by this, many cross-modal Vision-Language pretraining models, i.e., VLPMs, have been designed and trained by feeding visual and linguistic contents into the multi-layer transformer.
+
 
 <h2 id="VLSStruc">
 Generalized VLPM architecture
