@@ -5,6 +5,8 @@ This repository builds upon our recent [survey paper for **Vision-Language Pretr
   <b>Long, S., Cao, F., Han, C., & Yang, H. (2022). <br/><a href="https://arxiv.org/pdf/2204.07356.pdf">Vision-and-Language Pretrained Models: A Survey</a><br/> (IJCAI 2022), pp. XXX</b></span>
 </h4>
 
+![image](https://github.com/usydnlp/Fantastic_VLPMs/blob/main/img/vlpm_ontology.png)
+
 If you find any error or have any suggestion, please don't hesitate to open an issue and contact us.
 If you find this repository helpful for your research or work, please kindly cite our VLPM survey paper pusblished in IJCAI 2022 using the Bibtex provided below:
 
@@ -27,7 +29,7 @@ If you find this repository helpful for your research or work, please kindly cit
   - [Pretraining tasks and dataset](#VLSPTD)
   - [Downstream tasks and dataset](#VLSDTD)
   - [Future Research Direction](#VLSFRD)
-- [Comprehensive Overview](#Comprehensive)
+- [Code Availability](#Comprehensive)
 
 
 
@@ -305,9 +307,310 @@ In order to advance this field, we propose several promising future directions f
 
 
 <h1 id="Comprehensive">
-Comprehensive Overview
+Code availability
 </h1>
 
+<table class="tg" style="undefined;table-layout: fixed; width: 1043px">
+<colgroup>
+<col style="width: 33px">
+<col style="width: 100px">
+<col style="width: 42px">
+<col style="width: 120px">
+<col style="width: 646px">
+<col style="width: 102px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-bobw"><span style="font-weight:bold">No.</span></th>
+    <th class="tg-bobw"><span style="font-weight:bold">VLPM</span></th>
+    <th class="tg-bobw"><span style="font-weight:bold">Year</span></th>
+    <th class="tg-bobw"><span style="font-weight:bold">Pub.</span></th>
+    <th class="tg-bobw" colspan="2"><span style="font-weight:bold">Code</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-2b7s">1</td>
+    <td class="tg-7h26"><a href="https://arxiv.org/pdf/1908.03557.pdf">VisualBERT</a></td>
+    <td class="tg-2b7s">2019</td>
+    <td class="tg-7zrl">arXiv</td>
+    <td class="tg-7h26"><a href="https://github.com/uclanlp/visualbert">https://github.com/uclanlp/visualbert</a></td>
+    <td class="tg-7zrl">PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">2</td>
+    <td class="tg-7h26"><a href="https://aclanthology.org/D19-1219.pdf">B2T2</a></td>
+    <td class="tg-2b7s">2019</td>
+    <td class="tg-7zrl">EMNLP</td>
+    <td class="tg-7h26"><a href="https://github.com/google-research/language/tree/master/language/question_answering/b2t2">https://github.com/google-research/language/tree/master/language/question_answering/b2t2</a><span style="font-style:normal">2</span></td>
+    <td class="tg-7zrl">TensorFlow</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">3</td>
+    <td class="tg-7h26"><a href="https://aclanthology.org/D19-1514.pdf">LXMERT</a></td>
+    <td class="tg-2b7s">2019</td>
+    <td class="tg-7zrl">EMNLP</td>
+    <td class="tg-7h26"><a href="https://github.com/airsplay/lxmert">https://github.com/airsplay/lxmert</a><span style="font-style:normal">t</span></td>
+    <td class="tg-7zrl">PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">4</td>
+    <td class="tg-7h26"><a href="https://arxiv.org/pdf/1908.02265.pdf">ViLBERT</a></td>
+    <td class="tg-2b7s">2019</td>
+    <td class="tg-7zrl">NeurlIPS</td>
+    <td class="tg-7h26"><a href="https://github.com/jiasenlu/vilbert_beta">https://github.com/jiasenlu/vilbert_beta</a></td>
+    <td class="tg-7zrl">PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">5</td>
+    <td class="tg-7h26"><a href="https://ojs.aaai.org/index.php/AAAI/article/download/7005/6859">VLP</a></td>
+    <td class="tg-2b7s">2020</td>
+    <td class="tg-7zrl">AAAI</td>
+    <td class="tg-7h26"><a href="https://github.com/LuoweiZhou/VLP">https://github.com/LuoweiZhou/VLP</a></td>
+    <td class="tg-7zrl">PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">6</td>
+    <td class="tg-7h26"><a href="https://arxiv.org/pdf/1908.08530.pdf">VL-BERT</a></td>
+    <td class="tg-2b7s">2020</td>
+    <td class="tg-7zrl">ICLR</td>
+    <td class="tg-7h26"><a href="https://github.com/jackroos/VL-BERT">https://github.com/jackroos/VL-BERT</a></td>
+    <td class="tg-7zrl">PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">7</td>
+    <td class="tg-7h26"><a href="https://arxiv.org/pdf/2004.13278.pdf">VD-BERT</a></td>
+    <td class="tg-2b7s">2020</td>
+    <td class="tg-7zrl">EMNLP</td>
+    <td class="tg-7h26"><a href="https://github.com/salesforce/VD-BERT">https://github.com/salesforce/VD-BERT</a><span style="font-style:normal">T</span></td>
+    <td class="tg-7zrl">PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">8</td>
+    <td class="tg-7h26"><a href="https://arxiv.org/pdf/2004.14973.pdf">VLN-BERT</a></td>
+    <td class="tg-2b7s">2020</td>
+    <td class="tg-7zrl">ECCV</td>
+    <td class="tg-7h26"><a href="https://github.com/arjunmajum/vln-bert">https://github.com/arjunmajum/vln-bert</a></td>
+    <td class="tg-7zrl">PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">9</td>
+    <td class="tg-7h26"><a href="https://arxiv.org/pdf/2003.13198.pdf">InterBERT</a></td>
+    <td class="tg-2b7s">2020</td>
+    <td class="tg-7zrl">arXiv</td>
+    <td class="tg-7h26"><a href="https://github.com/black4321/InterBERT">https://github.com/black4321/InterBERT</a></td>
+    <td class="tg-7zrl">PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">10</td>
+    <td class="tg-7h26"><a href="https://arxiv.org/pdf/2006.06195.pdf?amp=1">VILLA</a></td>
+    <td class="tg-2b7s">2020</td>
+    <td class="tg-7zrl">NeurlIPS</td>
+    <td class="tg-7h26"><a href="https://github.com/zhegan27/VILLA">https://github.com/zhegan27/VILLA</a></td>
+    <td class="tg-7zrl">PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">11</td>
+    <td class="tg-7h26"><a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhu_ActBERT_Learning_Global-Local_Video-Text_Representations_CVPR_2020_paper.pdf">ActBERT</a></td>
+    <td class="tg-2b7s">2020</td>
+    <td class="tg-7zrl">CVPR</td>
+    <td class="tg-7h26"><a href="https://github.com/PaddlePaddle/PaddleVideo/blob/develop/docs/en/model_zoo/multimodal/actbert.md">https://github.com/PaddlePaddle/PaddleVideo/blob/develop/docs/en/model_zoo/multimodal/actbert.md</a></td>
+    <td class="tg-7zrl">Paddle Paddle</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">12</td>
+    <td class="tg-7h26"><a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Hao_Towards_Learning_a_Generic_Agent_for_Vision-and-Language_Navigation_via_Pre-Training_CVPR_2020_paper.pdf">PREVALENT</a></td>
+    <td class="tg-2b7s">2020</td>
+    <td class="tg-7zrl">CVPR</td>
+    <td class="tg-7h26"><a href="https://github.com/weituo12321/PREVALENT">https://github.com/weituo12321/PREVALENT</a></td>
+    <td class="tg-7zrl">PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">13</td>
+    <td class="tg-7h26"><a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Lu_12-in-1_Multi-Task_Vision_and_Language_Representation_Learning_CVPR_2020_paper.pdf">12-IN-1</a></td>
+    <td class="tg-2b7s">2020</td>
+    <td class="tg-7zrl">CVPR</td>
+    <td class="tg-7h26"><a href="https://github.com/facebookresearch/vilbert-multi-task">https://github.com/facebookresearch/vilbert-multi-task</a></td>
+    <td class="tg-7zrl">PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">14</td>
+    <td class="tg-7h26"><a href="https://dl.acm.org/doi/pdf/10.1145/3397271.3401430">FashionBERT</a></td>
+    <td class="tg-2b7s">2020</td>
+    <td class="tg-7zrl">SIGIR</td>
+    <td class="tg-7h26"><a href="https://github.com/alibaba/EasyTransfer/tree/master/scripts/fashion_bert">https://github.com/alibaba/EasyTransfer/tree/master/scripts/fashion_bert</a></td>
+    <td class="tg-7zrl">Tensorflow</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">15</td>
+    <td class="tg-7h26"><a href="https://arxiv.org/pdf/1909.11740.pdf">UNTER</a></td>
+    <td class="tg-2b7s">2020</td>
+    <td class="tg-7zrl">ECCV</td>
+    <td class="tg-7h26"><a href="https://github.com/ChenRocks/UNITER">https://github.com/ChenRocks/UNITER</a></td>
+    <td class="tg-7zrl">PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">16</td>
+    <td class="tg-7h26"><a href="https://arxiv.org/pdf/1912.02379.pdf">VisDial-BERT</a></td>
+    <td class="tg-2b7s">2020</td>
+    <td class="tg-7zrl">ECCV</td>
+    <td class="tg-7h26"><a href="https://github.com/vmurahari3/visdial-bert">https://github.com/vmurahari3/visdial-bert</a></td>
+    <td class="tg-7zrl">PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">17</td>
+    <td class="tg-7h26"><a href="https://arxiv.org/pdf/2004.06165.pdf">OSCAR</a></td>
+    <td class="tg-2b7s">2020</td>
+    <td class="tg-7zrl">ECCV</td>
+    <td class="tg-7h26"><a href="https://github.com/microsoft/Oscar">https://github.com/microsoft/Oscar</a></td>
+    <td class="tg-7zrl">PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">18</td>
+    <td class="tg-7h26"><a href="https://www.aaai.org/AAAI21Papers/AAAI-6208.YuFei.pdf">ERNIE-ViL</a></td>
+    <td class="tg-2b7s">2020</td>
+    <td class="tg-7zrl">AAAI</td>
+    <td class="tg-7h26"><a href="https://github.com/PaddlePaddle/ERNIE/tree/repro/ernie-vil">https://github.com/PaddlePaddle/ERNIE/tree/repro/ernie-vil</a></td>
+    <td class="tg-7zrl">Paddle Paddle</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">19</td>
+    <td class="tg-7h26"><a href="https://arxiv.org/pdf/2009.04965.pdf">RVL-BERT</a></td>
+    <td class="tg-2b7s">2020</td>
+    <td class="tg-7zrl">IEEE ACCESS</td>
+    <td class="tg-7h26"><a href="https://github.com/coldmanck/RVL-BERT">https://github.com/coldmanck/RVL-BERT</a></td>
+    <td class="tg-7zrl">PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">20</td>
+    <td class="tg-7h26"><a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Yu_Transitional_Adaptation_of_Pretrained_Models_for_Visual_Storytelling_CVPR_2021_paper.pdf">TAPM</a></td>
+    <td class="tg-2b7s">2021</td>
+    <td class="tg-7zrl">CVPR</td>
+    <td class="tg-7h26"><a href="https://github.com/JiwanChung/tapm">https://github.com/JiwanChung/tapm</a></td>
+    <td class="tg-7zrl">PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">21</td>
+    <td class="tg-7h26"><a href="https://arxiv.org/abs/2101.11562">TDEN</a></td>
+    <td class="tg-2b7s">2021</td>
+    <td class="tg-7zrl">AAAI</td>
+    <td class="tg-7h26"><a href="https://github.com/YehLi/TDEN">https://github.com/YehLi/TDEN</a></td>
+    <td class="tg-7zrl">PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">22</td>
+    <td class="tg-7h26"><a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_VinVL_Revisiting_Visual_Representations_in_Vision-Language_Models_CVPR_2021_paper.pdf">VinVL</a></td>
+    <td class="tg-2b7s">2021</td>
+    <td class="tg-7zrl">CVPR</td>
+    <td class="tg-7h26"><a href="https://github.com/pzzhang/VinVL">https://github.com/pzzhang/VinVL</a></td>
+    <td class="tg-7zrl">PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">23</td>
+    <td class="tg-7h26"><a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Zhou_UC2_Universal_Cross-Lingual_Cross-Modal_Vision-and-Language_Pre-Training_CVPR_2021_paper.pdf">UC2</a></td>
+    <td class="tg-2b7s">2021</td>
+    <td class="tg-7zrl">CVPR</td>
+    <td class="tg-7h26"><a href="https://github.com/zmykevin/UC2">https://github.com/zmykevin/UC2</a></td>
+    <td class="tg-7zrl">PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">24</td>
+    <td class="tg-7h26"><a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_TAP_Text-Aware_Pre-Training_for_Text-VQA_and_Text-Caption_CVPR_2021_paper.pdf">TAP</a></td>
+    <td class="tg-2b7s">2021</td>
+    <td class="tg-7zrl">CVPR</td>
+    <td class="tg-7h26"><a href="https://github.com/microsoft/TAP">https://github.com/microsoft/TAP</a></td>
+    <td class="tg-7zrl">PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">25</td>
+    <td class="tg-7h26"><a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Ni_M3P_Learning_Universal_Representations_via_Multitask_Multilingual_Multimodal_Pre-Training_CVPR_2021_paper.pdf">M3P</a></td>
+    <td class="tg-2b7s">2021</td>
+    <td class="tg-7zrl">CVPR</td>
+    <td class="tg-7h26"><a href="https://github.com/microsoft/M3P">https://github.com/microsoft/M3P</a></td>
+    <td class="tg-7zrl">PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">26</td>
+    <td class="tg-7h26"><a href="https://aclanthology.org/2021.naacl-main.77.pdf">LightningDOT</a></td>
+    <td class="tg-2b7s">2021</td>
+    <td class="tg-7zrl">ACL</td>
+    <td class="tg-7h26"><a href="https://github.com/intersun/LightningDOT">https://github.com/intersun/LightningDOT</a></td>
+    <td class="tg-7zrl">PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">27</td>
+    <td class="tg-7h26"><a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Causal_Attention_for_Vision-Language_Tasks_CVPR_2021_paper.pdf">CATT</a></td>
+    <td class="tg-2b7s">2021</td>
+    <td class="tg-7zrl">CVPR</td>
+    <td class="tg-7h26"><a href="https://github.com/yangxuntu/lxmertcatt">https://github.com/yangxuntu/lxmertcatt</a></td>
+    <td class="tg-7zrl">PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">28</td>
+    <td class="tg-7h26"><a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Huang_Seeing_Out_of_the_Box_End-to-End_Pre-Training_for_Vision-Language_Representation_CVPR_2021_paper.pdf">SOHO</a></td>
+    <td class="tg-2b7s">2021</td>
+    <td class="tg-7zrl">CVPR</td>
+    <td class="tg-7h26"><a href="https://github.com/researchmm/soho">https://github.com/researchmm/soho</a></td>
+    <td class="tg-7zrl">PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">29</td>
+    <td class="tg-7h26"><a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Hong_VLN_BERT_A_Recurrent_Vision-and-Language_BERT_for_Navigation_CVPR_2021_paper.pdf">VLN-BERT</a></td>
+    <td class="tg-2b7s">2021</td>
+    <td class="tg-7zrl">CVPR</td>
+    <td class="tg-7h26"><a href="https://github.com/YicongHong/Recurrent-VLN-BERT">https://github.com/YicongHong/Recurrent-VLN-BERT</a></td>
+    <td class="tg-7zrl">PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">30</td>
+    <td class="tg-7h26"><a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Zhuge_Kaleido-BERT_Vision-Language_Pre-Training_on_Fashion_Domain_CVPR_2021_paper.pdf">Kaleido-BERT</a></td>
+    <td class="tg-2b7s">2021</td>
+    <td class="tg-7zrl">CVPR</td>
+    <td class="tg-7h26"><a href="https://github.com/mczhuge/Kaleido-BERT">https://github.com/mczhuge/Kaleido-BERT</a></td>
+    <td class="tg-7zrl">TensorFlow</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">31</td>
+    <td class="tg-zb5k"><a href="https://arxiv.org/pdf/2012.15409.pdf">Unimo</a></td>
+    <td class="tg-2b7s">2021</td>
+    <td class="tg-7zrl">arXiv</td>
+    <td class="tg-7h26"><a href="https://github.com/PaddlePaddle/Research/tree/master/NLP/UNIMO">https://github.com/PaddlePaddle/Research/tree/master/NLP/UNIMO</a></td>
+    <td class="tg-7zrl">Paddle Paddle</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">32</td>
+    <td class="tg-zb5k"><a href="https://arxiv.org/pdf/2103.06561.pdf">WenLan</a></td>
+    <td class="tg-2b7s">2021</td>
+    <td class="tg-7zrl">arXiv</td>
+    <td class="tg-7h26"><a href="https://github.com/BAAI-WuDao/BriVl">https://github.com/BAAI-WuDao/BriVl</a></td>
+    <td class="tg-7zrl">PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">33</td>
+    <td class="tg-zb5k"><a href="https://arxiv.org/pdf/2108.11119.pdf">UPOC2</a></td>
+    <td class="tg-2b7s">2021</td>
+    <td class="tg-7zrl">ACM International Conference on Multimedia</td>
+    <td class="tg-7h26"><a href="https://github.com/syuqings/fashion-mmt">https://github.com/syuqings/fashion-mmt</a></td>
+    <td class="tg-7zrl">PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">34</td>
+    <td class="tg-7h26"><a href="https://arxiv.org/pdf/2108.09105.pdf">Airbert</a></td>
+    <td class="tg-2b7s">2021</td>
+    <td class="tg-7zrl">ICCV</td>
+    <td class="tg-7h26"><a href="https://github.com/airbert-vln/airbert">https://github.com/airbert-vln/airbert</a></td>
+    <td class="tg-7zrl">PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-2b7s">35</td>
+    <td class="tg-zb5k"><a href="https://arxiv.org/pdf/2102.03334v2.pdf">ViLT</a></td>
+    <td class="tg-2b7s">2021</td>
+    <td class="tg-7zrl">ICML</td>
+    <td class="tg-7h26"><a href="https://github.com/dandelin/vilt">https://github.com/dandelin/vilt</a></td>
+    <td class="tg-7zrl">PyTorch</td>
+  </tr>
+</tbody>
+</table>
 
 
-![image](https://github.com/usydnlp/Fantastic_VLPMs/blob/main/img/vlpm_ontology.png)
+
