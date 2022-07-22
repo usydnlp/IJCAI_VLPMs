@@ -350,7 +350,7 @@ Code availability
     <td class="tg-7h26"><a href="https://aclanthology.org/D19-1514.pdf">LXMERT</a></td>
     <td class="tg-2b7s">2019</td>
     <td class="tg-7zrl">EMNLP</td>
-    <td class="tg-7h26"><a href="https://github.com/airsplay/lxmert">https://github.com/airsplay/lxmert</a><span style="font-style:normal">t</span></td>
+    <td class="tg-7h26"><a href="https://github.com/airsplay/lxmert">https://github.com/airsplay/lxmert</a><span style="font-style:normal"></span></td>
     <td class="tg-7zrl">PyTorch</td>
   </tr>
   <tr>
@@ -382,7 +382,7 @@ Code availability
     <td class="tg-7h26"><a href="https://arxiv.org/pdf/2004.13278.pdf">VD-BERT</a></td>
     <td class="tg-2b7s">2020</td>
     <td class="tg-7zrl">EMNLP</td>
-    <td class="tg-7h26"><a href="https://github.com/salesforce/VD-BERT">https://github.com/salesforce/VD-BERT</a><span style="font-style:normal">T</span></td>
+    <td class="tg-7h26"><a href="https://github.com/salesforce/VD-BERT">https://github.com/salesforce/VD-BERT</a><span style="font-style:normal"></span></td>
     <td class="tg-7zrl">PyTorch</td>
   </tr>
   <tr>
