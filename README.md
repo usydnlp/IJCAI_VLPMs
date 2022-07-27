@@ -2,7 +2,7 @@
 This repository builds upon our recent [survey paper for **Vision-Language Pretraining Models (VLPMs)**](https://arxiv.org/pdf/2204.07356.pdf) pusblished in IJCAI 2022. At the current initial stage, it mainly presents a structured summary of the survy and lists up the related VLPM papers with code availability, aiming to provide a general guideline and reference for future research development in VLPMs. As our future work, we will keep maintaining and adding on new VLPM related research and works. 
 
 <h4 align="center">
-  <b>Long, S., Cao, F., Han, C., & Yang, H. (2022). <br/><a href="https://arxiv.org/pdf/2204.07356.pdf">Vision-and-Language Pretrained Models: A Survey</a><br/> (IJCAI 2022), pp. XXX</b></span>
+  <b>Long, S., Cao, F., Han, C., & Yang, H. (2022). <br/><a href="https://arxiv.org/pdf/2204.07356.pdf">Vision-and-Language Pretrained Models: A Survey</a><br/> (IJCAI 2022)</b></span>
 </h4>
 
 ![image](https://github.com/usydnlp/Fantastic_VLPMs/blob/main/img/vlpm_ontology.png)
