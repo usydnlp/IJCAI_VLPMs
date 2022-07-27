@@ -14,7 +14,7 @@ If you find this repository helpful for your research or work, please kindly cit
 @article{long2022vision,
   title={Vision-and-Language Pretrained Models: A Survey},
   author={Long, Siqu and Cao, Feiqi and Han, Soyeon Caren and Yang, Haiqing},
-  journal={arXiv preprint arXiv:2204.07356},
+  journal={Thirty-First International Joint Conference on Artificial Intelligence, IJCAI-22},
   year={2022}
 }
 ```
