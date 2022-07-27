@@ -23,7 +23,7 @@ If you find this repository helpful for your research or work, please kindly cit
   month     = {7},
   note      = {Survey Track}
   doi       = {10.24963/ijcai.2022/773},
-  url       = {https://doi.org/10.24963/ijcai.2022/773},
+  url       = {https://www.ijcai.org/proceedings/2022/0773.pdf},
 }
 ```
 
