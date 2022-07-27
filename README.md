@@ -1,8 +1,8 @@
 # Fantastic VLPMs
-This repository builds upon our recent [survey paper for **Vision-Language Pretraining Models (VLPMs)**](https://arxiv.org/pdf/2204.07356.pdf) pusblished in IJCAI 2022. At the current initial stage, it mainly presents a structured summary of the survy and lists up the related VLPM papers with code availability, aiming to provide a general guideline and reference for future research development in VLPMs. As our future work, we will keep maintaining and adding on new VLPM related research and works. 
+This repository builds upon our recent [survey paper for **Vision-Language Pretraining Models (VLPMs)**](https://www.ijcai.org/proceedings/2022/0773.pdf) pusblished in IJCAI 2022. At the current initial stage, it mainly presents a structured summary of the survy and lists up the related VLPM papers with code availability, aiming to provide a general guideline and reference for future research development in VLPMs. As our future work, we will keep maintaining and adding on new VLPM related research and works. 
 
 <h4 align="center">
-  <b>Long, S., Cao, F., Han, C., & Yang, H. (2022). <br/><a href="https://arxiv.org/pdf/2204.07356.pdf">Vision-and-Language Pretrained Models: A Survey</a><br/> (IJCAI 2022)</b></span>
+  <b>Long, S., Cao, F., Han, C., & Yang, H. (2022). <br/><a href="https://www.ijcai.org/proceedings/2022/0773.pdf">Vision-and-Language Pretrained Models: A Survey</a><br/> (IJCAI 2022)</b></span>
 </h4>
 
 ![image](https://github.com/usydnlp/Fantastic_VLPMs/blob/main/img/vlpm_ontology.png)
@@ -11,11 +11,19 @@ If you find any error or have any suggestion, please don't hesitate to open an i
 If you find this repository helpful for your research or work, please kindly cite our VLPM survey paper pusblished in IJCAI 2022 using the Bibtex provided below:
 
 ```
-@article{long2022vision,
-  title={Vision-and-Language Pretrained Models: A Survey},
-  author={Long, Siqu and Cao, Feiqi and Han, Soyeon Caren and Yang, Haiqing},
-  journal={Thirty-First International Joint Conference on Artificial Intelligence, IJCAI-22},
-  year={2022}
+@inproceedings{ijcai2022-773,
+  title     = {Vision-and-Language Pretrained Models: A Survey},
+  author    = {Long, Siqu and Cao, Feiqi and Han, Soyeon Caren and Yang, Haiqin},
+  booktitle = {Proceedings of the Thirty-First International Joint Conference on
+               Artificial Intelligence, {IJCAI-22}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {Lud De Raedt},
+  pages     = {5530--5537},
+  year      = {2022},
+  month     = {7},
+  note      = {Survey Track}
+  doi       = {10.24963/ijcai.2022/773},
+  url       = {https://doi.org/10.24963/ijcai.2022/773},
 }
 ```
 
