@@ -1,4 +1,4 @@
-# Fantastic VLPMs
+# IJCAI 2022 VLPMs
 This repository builds upon our recent [survey paper for **Vision-Language Pretraining Models (VLPMs)**](https://www.ijcai.org/proceedings/2022/0773.pdf) pusblished in IJCAI 2022. At the current initial stage, it mainly presents a structured summary of the survy and lists up the related VLPM papers with code availability, aiming to provide a general guideline and reference for future research development in VLPMs. As our future work, we will keep maintaining and adding on new VLPM related research and works. 
 
 <h4 align="center">
