@@ -3,7 +3,6 @@ This repository builds upon our recent [survey paper for **Vision-Language Pretr
 
 
 
-
 <h4 align="center">
   <b>Long, S., Cao, F., Han, C., & Yang, H. (2022). <br/><a href="https://www.ijcai.org/proceedings/2022/0773.pdf">Vision-and-Language Pretrained Models: A Survey</a><br/> (IJCAI 2022)</b></span>
 </h4>
