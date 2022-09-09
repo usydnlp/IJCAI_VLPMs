@@ -133,7 +133,7 @@ In the following table, we summarize the granularities of **V representation (vi
             <td>Complete images as visual tokens</td>
             <td><li>Driven by multi-image based tasks such as Vision-Language Navigation (VLN)</li><li>Focus more on inter-image correlation, angle change in the images of the same scene</li></td>
             <td>Pooled visual feature from CNN model, e.g. EfficientNet</td>
-            <td>Coordinates of object regions, e.g. 5d vector (normalized ROI bbox and the fraction of image area)
+            <td>Relative position of images, i.e. the elevation and heading angle relative to the agent for representing the positional relations among panorama images in VLN task
 </td>
             <td>PREVALENT (Hao et al., 2020) </td>
         </tr>
