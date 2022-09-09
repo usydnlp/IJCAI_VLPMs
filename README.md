@@ -81,7 +81,7 @@ We systematically review the VLPM architectures in terms of those four component
 Input Encoding - Raw V/L Input 
 </h2>
 
-The pretraining process and downstream tasks normally reply on pairwise image-text corpus. Most VLPMs adopt the *single sentence (as **raw input for language**)* that aligns with the corresponding *single image (as **raw input for vision**)*, such as in the VisualBert (Li et al., 2019). Some specialized VLPMs apply *multiple sentences* that are semantically related to the corresponding image, e.g., the VLPM for Visual Dialogue Task (Wang et al., 2020) and the VLPM under multi-lingual settings (Fei et al., 2021), or apply *multiple images*, such as for the Vision Language Naviation (VLN) task (Majumdar et al., 202). Porvided below is the examples for the V/L raw input in the existing VLPMs. 
+The pretraining process and downstream tasks normally reply on pairwise image-text corpus. Most VLPMs adopt the *single sentence (as **raw input for language**)* that aligns with the corresponding *single image (as **raw input for vision**)*, such as in the VisualBert (Li et al., 2019). Some specialized VLPMs apply *multiple sentences* that are semantically related to the corresponding image, e.g., the VLPM for Visual Dialogue Task (Wang et al., 2020) and the VLPM under multi-lingual settings (Fei et al., 2021), or apply *multiple images*, such as for the Vision Language Navigation (VLN) task (Majumdar et al., 202). Provided below is the examples for the V/L raw input in the existing VLPMs. 
 
 <p align="center"><img src="https://github.com/usydnlp/Fantastic_VLPMs/blob/main/img/rawinput.png" alt="V/L Raw Input" width="900"/></p>
 
@@ -89,7 +89,7 @@ The pretraining process and downstream tasks normally reply on pairwise image-te
 
 <h2> Input Encoding - V/L Representation </h2>
 
-In the following table, we summarize the granularities of **V representation (visual representation)** applied by existing VLPMs, i.e. how image pixels are split into groups as visual tokens. It is an important decision of design since it decides the alignment level of cross-modal modeling in the image content, i.e. the source of cross-modal interaction 
+In the following table, we summarize the granularities of **V representation (visual representation)** applied by existing VLPMs, i.e. how image pixels are split into groups as visual tokens. It is an important decision of design since it decides the alignment level of cross-modal modeling in the image content, i.e. the source of cross-modal interaction. 
 
 
 
