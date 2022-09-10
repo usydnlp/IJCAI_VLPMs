@@ -99,7 +99,7 @@ In the following table, we summarize the granularities of **V representation (vi
         <tr>
             <th style="width: 10%">Granularity</th>
             <th style="width: 10%">Definition</th>
-            <th style="width: 25%">Intution</th>
+            <th style="width: 25%">Intuition</th>
             <th style="width: 20%">Visual Embedding</th>
             <th style="width: 20%">Spatial Position Embedding</th>
             <th>Example VLPMs</th>
@@ -143,7 +143,7 @@ In the following table, we summarize the granularities of **V representation (vi
 
 <h3>Intra-modality Processing</h3>
 
-Before feeding the Bert-formatted language/visual representation into the cross-modal interaction model, some VLPMs further conduct additional **intra-modality processing** to the language or visual representation (or both). Most VLPMs adopt additional self-attention based transformer blocks as intra-modality processing. Several VLPMs also apply non-transformer processing such as using AoANet and the Visual Dictionary-based mapping. Transformer blocks provides flexibility of selecting a different number of blocks for the two modalities. In practice, the language modality normally applies more blocks than the vision modality for a better balance. 
+Before feeding the Bert-formatted language/visual representation into the cross-modal interaction model, some VLPMs further conduct additional **intra-modality processing** to the language or visual representation (or both). Most VLPMs adopt additional self-attention based transformer blocks as intra-modality processing. Several VLPMs also apply non-transformer processing such as using AoANet in XGTP (Xia et.al 2021) and the Visual Dictionary-based mapping in SOHO (Huang et.al 2021). Transformer blocks provides flexibility of selecting a different number of blocks for the two modalities. In practice, the language modality normally applies more blocks than the vision modality for a better balance. 
 
 <p align="center"><img src="https://github.com/usydnlp/Fantastic_VLPMs/blob/main/img/intra-modealprocessing.png" alt="Intra-modal Porcessing" width="900"/></p>
 
