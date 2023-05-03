@@ -370,7 +370,7 @@ Code availability
     <td class="tg-2b7s">4</td>
     <td class="tg-7h26"><a href="https://arxiv.org/pdf/1908.02265.pdf">ViLBERT</a></td>
     <td class="tg-2b7s">2019</td>
-    <td class="tg-7zrl">NeurlIPS</td>
+    <td class="tg-7zrl">NeurIPS</td>
     <td class="tg-7h26"><a href="https://github.com/jiasenlu/vilbert_beta">https://github.com/jiasenlu/vilbert_beta</a></td>
     <td class="tg-7zrl">PyTorch</td>
   </tr>
@@ -418,7 +418,7 @@ Code availability
     <td class="tg-2b7s">10</td>
     <td class="tg-7h26"><a href="https://arxiv.org/pdf/2006.06195.pdf?amp=1">VILLA</a></td>
     <td class="tg-2b7s">2020</td>
-    <td class="tg-7zrl">NeurlIPS</td>
+    <td class="tg-7zrl">NeurIPS</td>
     <td class="tg-7h26"><a href="https://github.com/zhegan27/VILLA">https://github.com/zhegan27/VILLA</a></td>
     <td class="tg-7zrl">PyTorch</td>
   </tr>
