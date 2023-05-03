@@ -586,7 +586,7 @@ Code availability
     <td class="tg-2b7s">31</td>
     <td class="tg-zb5k"><a href="https://arxiv.org/pdf/2012.15409.pdf">Unimo</a></td>
     <td class="tg-2b7s">2021</td>
-    <td class="tg-7zrl">arXiv</td>
+    <td class="tg-7zrl">ACL</td>
     <td class="tg-7h26"><a href="https://github.com/PaddlePaddle/Research/tree/master/NLP/UNIMO">https://github.com/PaddlePaddle/Research/tree/master/NLP/UNIMO</a></td>
     <td class="tg-7zrl">Paddle Paddle</td>
   </tr>
